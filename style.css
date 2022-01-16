@@ -1,0 +1,10 @@
+.footer{
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    color: azure;
+    line-height: 2;
+    margin-top: 40px;
+ }
