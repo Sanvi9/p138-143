@@ -8,3 +8,8 @@
     line-height: 2;
     margin-top: 40px;
  }
+
+ #canvas{
+     border-radius: 15px;
+     box-shadow: 10px 10px 10px rgb(255, 0, 255);
+ }
