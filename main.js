@@ -1,3 +1,4 @@
+game_status = "";
 function setup(){
   var canvas =  createCanvas(700,600);
   canvas.parent('canvas');
@@ -17,8 +18,10 @@ function draw(){
 
   background(0); 
   image(video, 0, 0, 700, 600);
-
-
-
-
-
+}
+function startGame()
+{
+  game_status = "start";
+  document.getElementById("status").innerHTML = "Game Is Loading";
+}
+if(game_status == "start"){}
